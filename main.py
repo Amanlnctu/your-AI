@@ -9,6 +9,11 @@ load_dotenv()
 API_KEY = os.getenv("GEMINI_API_KEY")
 configure(api_key=API_KEY)
 
+# Adding default prompts 
+
+system_prompt = "You are a helpful assistant."
+user_prompt = "Hello! How are you?"
+
 # Streamlit UI
 st.title("CREATE YOUR OWN AI MODEL")
 
