@@ -23,7 +23,7 @@ st.markdown(
     and **token limits** to fine-tune AI models. Seeing this, I was so fascinated that I decided to replicate
     their approach and create my own version of a similar platform using **Streamlit**.
     
-    💡 **Our Creation**  
+    💡 **Creation**  
     With my prior knowledge and the support of tools like **ChatGPT**, I built this project as a learning experience
     and a tribute to their vision. This is an ongoing experiment, and while it may not be perfect, I hope it serves
     as an inspiration for others to dive into AI and explore its possibilities.
