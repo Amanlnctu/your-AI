@@ -26,7 +26,7 @@ max_tokens = st.number_input("Max Tokens", min_value=1, value=200, step=1)
 
 # Generate Response Button
 if st.button("Generate Response"):
-    model = GenerativeModel("gemini-pro")
+    model = GenerativeModel("gemini-1.5-pro")
     
     print("Generating response with the following parameters:")
     print(f"System Prompt: {system_prompt}")
